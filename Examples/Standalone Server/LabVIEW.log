@@ -1,2 +1,0 @@
-2026-01-19T21:33:48.487Z,default,info,***** Log Starting *****
-2026-01-19T21:33:57.648Z,Sys,error,Error | (unknown) | 66 | TCP Read in Request.lvclass:Read Header.vi->Server.lvclass:Listen.vi->Standalone REST.vi

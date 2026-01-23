@@ -172,8 +172,8 @@
 			<Item Name="UTC.ctl" Type="VI" URL="../../../Helpers/UTC.ctl"/>
 			<Item Name="Unescape HTTP URL.vi" Type="VI" URL="../../../Helpers/Unescape HTTP URL.vi"/>
 			<Item Name="Listen Port.vi" Type="VI" URL="../../../Helpers/Listen Port.vi"/>
-			<Item Name="SHA1.vi" Type="VI" URL="../../../../LVREST/Server/Classes/RESTful API/Encryption/SHA1.vi"/>
-			<Item Name="base64.vi" Type="VI" URL="../../../../LVREST/Server/Classes/RESTful API/Encryption/base64.vi"/>
+			<Item Name="SHA1.vi" Type="VI" URL="../../../Encryption/SHA1.vi"/>
+			<Item Name="base64.vi" Type="VI" URL="../../../Encryption/base64.vi"/>
 			<Item Name="Handle WebSocket Upgrade.vi" Type="VI" URL="../../../Helpers/Handle WebSocket Upgrade.vi"/>
 			<Item Name="Parse JSON Map.vi" Type="VI" URL="../../../Request/SubVIs/Parse JSON Map.vi"/>
 			<Item Name="Request.ctl" Type="VI" URL="../../../Request/Request.ctl"/>
