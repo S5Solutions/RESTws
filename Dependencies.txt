@@ -1,2 +1,5 @@
 NI GDS 1.1+ (VIPM) or OpenGDS 1.3+ (https://github.com/opengds/OpenGDS/releases or VIPM - Tooling+Editor+Utils)
 
+LabVIEW 2023
+Some examples require RT/RIO
+
