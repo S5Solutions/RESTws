@@ -1,3 +1,4 @@
 *.log
 *.aliases
 *.ini
+.vscode

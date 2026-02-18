@@ -167,6 +167,13 @@
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Assert Unsigned Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Unsigned Integer Type.vim"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="LVNumericRepresentation.ctl" Type="VI" URL="/&lt;vilib&gt;/numeric/LVNumericRepresentation.ctl"/>
+				<Item Name="DWDT Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Empty Digital.vi"/>
+				<Item Name="DTbl Empty Digital.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Empty Digital.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 			</Item>
 			<Item Name="Clear Component Lists.vi" Type="VI" URL="../SubVIs/Clear Component Lists.vi"/>
 			<Item Name="Elapsed Time.vi" Type="VI" URL="../../SubVIs/Elapsed Time.vi"/>
@@ -182,9 +189,9 @@
 			<Item Name="WebSocket Stats VIG Mode.ctl" Type="VI" URL="../../../WebSocket/WebSocket Stats VIG Mode.ctl"/>
 			<Item Name="WebSocket Stats VIG.vi" Type="VI" URL="../../../WebSocket/WebSocket Stats VIG.vi"/>
 			<Item Name="WebSocket Stats.ctl" Type="VI" URL="../../../WebSocket/WebSocket Stats.ctl"/>
-			<Item Name="WebSocket VIG States.ctl" Type="VI" URL="../controls/WebSocket VIG States.ctl"/>
-			<Item Name="WebSocket FGV.vi" Type="VI" URL="../SubVIs/FGVs/WebSocket FGV.vi"/>
 			<Item Name="Read Menu Action.vi" Type="VI" URL="../SubVIs/GUI/Read Menu Action.vi"/>
+			<Item Name="WebSocket VIG States.ctl" Type="VI" URL="../../Embedded/Windows/WebSocket VIG States.ctl"/>
+			<Item Name="WebSocket FGV.vi" Type="VI" URL="../../Embedded/RT/FGVs/WebSocket FGV.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
