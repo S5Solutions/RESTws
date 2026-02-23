@@ -2,3 +2,4 @@
 *.aliases
 *.ini
 .vscode
+*.tdms*

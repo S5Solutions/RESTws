@@ -5,6 +5,7 @@ These examples show how to use the RESTws API - either HTTP REST or WebSockets.
 1. Basic with GUI — REST HTTP API with a simple graphical interface to demonstrate client/server interactions.  
 2. Embedded — RT+Windows demo, shows the WebSocket API for streaming data using JSON.
 3. Standalone Server — Backend-only example (both Windows and RT) 
+4. NI App Web Server — Demonstrates integrating NI's Application Web Server with an Application
 
 ## Basic with GUI
 - Description:
@@ -62,3 +63,18 @@ These examples show how to use the RESTws API - either HTTP REST or WebSockets.
 - Notes:
     - Port 80 might be in use, especially in RT.  If log file shows error 60, change this port number and re-run the example.
     - Log Files and Static documents (HTML/Javascript/Images/etc) are stored in an `htdocs` folder under the Project/VI's folder.  This will also contain both the Log Files and a config file if desired.
+
+## NI App Web Server
+- Description:
+    - Combination of GUI "Simulation" of a data acquisition channel and NI Web Service.
+    - Data communication between "front end" and "back end" are named queues/notifiers, and a cheeky global.  (That shouldn't be used, yaknow..)
+    - NI App Web Server configured for HTTPS using a self-signed certificate, set to run on localhost in only Source mode for now.
+- Usage:
+    1. Open the Project file
+    2. Right click on the `WS` web server in the project file and choose `Start`
+    3. Open `NI App Web Server.vi` and run.
+    4. Click the `Start` button to begin generation, click the `Current WFM?` button to view the most recent generation subset, and click the `Save to TDMS` button (enter a file name in the dialog) to Save+View the TDMS file of the accumulated waveform.  Change the `Amplitude`/`Phase`/`Freq` numerics to modify the waveform generation.  Click the smaller `Stop` button (on the left) to pause waveform generation, and the larger `STOP` button in the bottom right to shutdown.
+- Demonstrates:
+    - Inter-process communication between GUI and NI App Web Server (and WS VIs) via named Queues/Notifiers.  Globals and VIGs work too.
+- Notes:
+    - NI App Web Server may require additional configuration.  See [NI Documentation] (https://www.ni.com/docs/en-US/bundle/labview/page/tutorial-creating-and-publishing-a-labview-web-service-to-the-application-web-server-real-time-windows.html) 
