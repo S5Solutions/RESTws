@@ -87,7 +87,8 @@
 
     <script>
         const port = window.location.port ? `:${window.location.port}` : '';
-        const baseURL = `http://localhost${port}`;
+        const host = window.location.hostname;
+        const baseURL = `http://${host}${port}`;
 
         const dataHistory = [];
         const maxHistory = 1024;
